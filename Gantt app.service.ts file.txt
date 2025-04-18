@@ -1,0 +1,108 @@
+import { Injectable } from '@angular/core';
+
+export class Task {
+  id: number;
+
+  parentId: number;
+
+  title: string;
+
+  start: Date;
+
+  end: Date;
+
+  progress: number;
+}
+
+export class Dependency {
+  id: number;
+
+  predecessorId: number;
+
+  successorId: number;
+
+  type: number;
+}
+
+export class Resource {
+  id: number;
+
+  text: string;
+}
+
+export class ResourceAssignment {
+  id: number;
+
+  taskId: number;
+
+  resourceId: number;
+}
+
+const tasks: Task[] = [{
+  id: 1,
+  parentId: 0,
+  title: 'Generate Persona Profile',
+  start: new Date('2025-04-08T05:00:00.000Z'),
+  end: new Date('2025-04-11T12:00:00.000Z'),
+  progress: 0,
+},{
+  id: 2,
+  parentId: 0,
+  title: 'Wireframe Development',
+  start: new Date('2025-04-12T05:00:00.000Z'),
+  end: new Date('2025-04-17T12:00:00.000Z'),
+  progress: 0,
+},{
+  id: 3,
+  parentId: 0,
+  title: 'Conduct Guerrilla Testing',
+  start: new Date('2025-04-18T05:00:00.000Z'),
+  end: new Date('2025-04-22T12:00:00.000Z'),
+  progress: 0,
+},{
+  id: 4,
+  parentId: 0,
+  title: 'Prototype Development',
+  start: new Date('2025-04-23T05:00:00.000Z'),
+  end: new Date('2025-04-27T12:00:00.000Z'),
+  progress: 0,
+},{
+  id: 5,
+  parentId: 0,
+  title: 'Creating Usability Tasks',
+  start: new Date('2025-04-28T05:00:00.000Z'),
+  end: new Date('2025-04-30T12:00:00.000Z'),
+  progress: 0,
+},{
+  id: 6,
+  parentId: 0,
+  title: 'Handle needed modifications',
+  start: new Date('2025-05-01T05:00:00.000Z'),
+  end: new Date('2025-05-07T12:00:00.000Z'),
+  progress: 0,
+}];
+
+const dependencies: Dependency[] = [];
+
+const resources: Resource[] = [];
+
+const resourceAssignments: ResourceAssignment[] = [];
+
+@Injectable()
+export class Service {
+  getTasks(): Task[] {
+    return tasks;
+  }
+
+  getDependencies(): Dependency[] {
+    return dependencies;
+  }
+
+  getResources(): Resource[] {
+    return resources;
+  }
+
+  getResourceAssignments(): ResourceAssignment[] {
+    return resourceAssignments;
+  }
+}
