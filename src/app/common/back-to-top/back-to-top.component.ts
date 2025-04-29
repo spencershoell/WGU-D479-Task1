@@ -1,13 +1,18 @@
 import { NgIf } from '@angular/common';
 import { Component, HostListener } from '@angular/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { icon } from '@fortawesome/fontawesome-svg-core';
+import { faChevronUp } from '@fortawesome/pro-solid-svg-icons';
 
 @Component({
     selector: 'app-back-to-top',
-    imports: [NgIf],
+    imports: [NgIf, FontAwesomeModule],
     templateUrl: './back-to-top.component.html',
     styleUrl: './back-to-top.component.scss'
 })
 export class BackToTopComponent {
+
+    fasChevronUp = icon(faChevronUp);
 
     isShow: boolean = false;
     topPosToStartShowing = 100;
