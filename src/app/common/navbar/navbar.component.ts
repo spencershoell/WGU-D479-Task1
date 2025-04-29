@@ -1,6 +1,6 @@
 import { Component, HostListener } from '@angular/core';
-import { NgClass, ViewportScroller } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { NgClass } from '@angular/common';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
     selector: 'app-navbar',
@@ -11,8 +11,8 @@ import { RouterLink } from '@angular/router';
 export class NavbarComponent {
 
     constructor(
-        private viewportScroller: ViewportScroller
-    ) {}
+        private router: Router
+    ) { }
 
     // Navbar Sticky
     isSticky: boolean = false;
@@ -26,8 +26,8 @@ export class NavbarComponent {
         }
     }
 
-    public onClick(elementId: string): void { 
-        this.viewportScroller.scrollToAnchor(elementId);
+    public onClick(link: string): void {
+        this.router.navigate([link]);
     }
 
     classApplied = false;

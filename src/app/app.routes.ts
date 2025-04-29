@@ -1,36 +1,39 @@
-import { Routes } from '@angular/router';
-import { HomeOneComponent } from './home-one/home-one.component';
-import { HomeTwoComponent } from './home-two/home-two.component';
-import { HomeThreeComponent } from './home-three/home-three.component';
-import { HomeFourComponent } from './home-four/home-four.component';
-import { HomeFiveComponent } from './home-five/home-five.component';
-import { HomeSixComponent } from './home-six/home-six.component';
-import { HomeSevenComponent } from './home-seven/home-seven.component';
-import { HomeEightComponent } from './home-eight/home-eight.component';
-import { HomeNineComponent } from './home-nine/home-nine.component';
-import { BlogDetailsComponent } from './blog-details/blog-details.component';
-import { HomeTwelveComponent } from './home-twelve/home-twelve.component';
-import { HomeElevenComponent } from './home-eleven/home-eleven.component';
-import { HomeTenComponent } from './home-ten/home-ten.component';
-import { HomeThirteenComponent } from './home-thirteen/home-thirteen.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './common/not-found/not-found.component';
+import { BeachesComponent } from './beaches/beaches.component';
+import { NgModule } from '@angular/core';
+import { FaqsComponent } from './faqs/faqs.component';
+import { HarborComponent } from './harbor/harbor.component';
+import { RainforestsComponent } from './rainforests/rainforests.component';
+import { MountainsComponent } from './mountains/mountains.component';
+import { VolcanoComponent } from './volcano/volcano.component';
+import { TanitiCityComponent } from './taniti-city/taniti-city.component';
+import { LodgingComponent } from './lodging/lodging.component';
+import { ShoppingComponent } from './shopping/shopping.component';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
+import { TransportationComponent } from './transportation/transportation.component';
 
 export const routes: Routes = [
-    {path: '', component: HomeOneComponent},
-    {path: 'home-two', component: HomeTwoComponent},
-    {path: 'home-three', component: HomeThreeComponent},
-    {path: 'home-four', component: HomeFourComponent},
-    {path: 'home-five', component: HomeFiveComponent},
-    {path: 'home-six', component: HomeSixComponent},
-    {path: 'home-seven', component: HomeSevenComponent},
-    {path: 'home-eight', component: HomeEightComponent},
-    {path: 'home-nine', component: HomeNineComponent},
-    {path: 'home-ten', component: HomeTenComponent},
-    {path: 'home-eleven', component: HomeElevenComponent},
-    {path: 'home-twelve', component: HomeTwelveComponent},
-    {path: 'home-thirteen', component: HomeThirteenComponent},
-    {path: 'blog-details', component: BlogDetailsComponent},
+    { path: '', component: HomeComponent },
+    { path: 'beaches', component: BeachesComponent },
+    { path: 'harbor', component: HarborComponent },
+    { path: 'rainforests', component: RainforestsComponent },
+    { path: 'mountains', component: MountainsComponent },
+    { path: 'volcano', component: VolcanoComponent },
+    { path: 'taniti-city', component: TanitiCityComponent },
+    { path: 'lodging', component: LodgingComponent },
+    { path: 'shopping', component: ShoppingComponent },
+    { path: 'restaurants', component: RestaurantsComponent },
+    { path: 'transportation', component: TransportationComponent },
+    { path: 'faqs', component: FaqsComponent },
     // Here add new pages component
 
-    {path: '**', component: NotFoundComponent} // This line will remain down from the whole pages component list
+    { path: '**', component: NotFoundComponent } // This line will remain down from the whole pages component list
 ];
+
+@NgModule({
+    imports: [RouterModule.forRoot(routes, { useHash: false })],
+    exports: [RouterModule]
+})
+export class AppRoutingModule { }

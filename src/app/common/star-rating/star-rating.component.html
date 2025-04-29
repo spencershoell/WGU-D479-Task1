@@ -1,0 +1,5 @@
+<div class="star-rating">
+    <fa-icon *ngFor="let star of fullStarRating" [icon]="fasStar"></fa-icon>
+    <fa-icon *ngFor="let star of partialStarRating" [icon]="fasStarHalfStroke"></fa-icon>
+    <fa-icon *ngFor="let star of emptyStarRating" [icon]="farStar"></fa-icon>
+</div>
