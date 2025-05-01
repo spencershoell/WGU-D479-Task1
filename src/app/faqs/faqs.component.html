@@ -1,71 +1,93 @@
-<div class="elements-area pt-100 pb-75">
+<div class="faq-area ptb-100">
     <div class="container">
         <div class="section-title">
-            <h2><span>Beaches</span></h2>
+            <h2>Frequently Asked <span>Questions</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
         </div>
-        <div class="row justify-content-center">
-            <div *ngFor="let element of beaches" class="col-lg-4 col-md-6">
-                <div class="single-element">
-                    <div class="element-img">
-                        <img [src]="element.imageUrl" alt="element-img" height="240px">
-                    </div>
-                    <div class="element-content">
-                        <h3>{{element.name}}</h3>
-                        <p>{{element.description}}
-                            <app-star-rating [rating]="element.rating"></app-star-rating>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="elements-area pt-100 pb-75">
-    <div class="container">
-        <div class="section-title">
-            <h2><span>Snorkling</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-        </div>
-        <div class="row justify-content-center">
-            <div *ngFor="let element of snorkelings" class="col-lg-4 col-md-6">
-                <div class="single-element">
-                    <div class="element-img">
-                        <img [src]="element.imageUrl" alt="element-img" height="240px">
-                    </div>
-                    <div class="element-content">
-                        <h3>{{element.name}}</h3>
-                        <p>{{element.description}}
-                            <app-star-rating [rating]="element.rating"></app-star-rating>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="elements-area pt-100 pb-75">
-    <div class="container">
-        <div class="section-title">
-            <h2><span>Fishing Tours</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-        </div>
-        <div class="row justify-content-center">
-            <div *ngFor="let element of fishingTours" class="col-lg-4 col-md-6">
-                <div class="single-element">
-                    <div class="element-img">
-                        <img [src]="element.imageUrl" alt="element-img" height="240px">
-                    </div>
-                    <div class="element-content">
-                        <h3>{{element.name}}</h3>
-                        <p>{{element.description}}
-                            <app-star-rating [rating]="element.rating"></app-star-rating>
-                        </p>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="faq-accordion">
+                    <div class="accordion">
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(0)"
+                                [ngClass]="{ 'open': isSectionOpen(0) }">
+                                What kind of power outlets does the island use?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(0) }">
+                                <p>Power outlets are 120 volts (the same as in the United States).</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(1)"
+                                [ngClass]="{ 'open': isSectionOpen(1) }">
+                                When is Alcohol allowed to be served?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(1) }">
+                                <p>Alcohol is not allowed to be served or sold between the hours of midnight and 9:00
+                                    a.m. </p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(2)"
+                                [ngClass]="{ 'open': isSectionOpen(2) }">
+                                What is the drinking age?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(2) }">
+                                <p>The drinking age on Taniti is 18 and the drinking age is not strictly enforced.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(3)"
+                                [ngClass]="{ 'open': isSectionOpen(3) }">
+                                Can I speak English?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(3) }">
+                                <p>Many younger Tanitians speak fluent English. Very little English is spoken in rural
+                                    areas, especially by the older residents.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(4)"
+                                [ngClass]="{ 'open': isSectionOpen(4) }">
+                                Is there a hospital?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(4) }">
+                                <p>There is one hospital and several clinics. The hospital has many multilingual
+                                    employees.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(5)"
+                                [ngClass]="{ 'open': isSectionOpen(5) }">
+                                What is the crime rate?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(5) }">
+                                <p>Violent crime is very rare on Taniti, but as tourism increases, there are more
+                                    reports of pickpocketing and other petty crimes. </p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(6)"
+                                [ngClass]="{ 'open': isSectionOpen(6) }">
+                                Are there any holidays I should be aware of?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(6) }">
+                                <p>Taniti enjoys a large number of national holidays, and many tourist attractions and
+                                    restaurants will be closed on holidays, so visitors should plan accordingly.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-section">
+                            <div class="accordion-header" (click)="toggleSection(7)"
+                                [ngClass]="{ 'open': isSectionOpen(7) }">
+                                What currency is accepted on the Island?
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(7) }">
+                                <p>Taniti uses the U.S. dollar as its currency, but many businesses will also accept
+                                    euros and yen. Several banks facilitate currency exchange, and many businesses
+                                    accept major credit cards.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

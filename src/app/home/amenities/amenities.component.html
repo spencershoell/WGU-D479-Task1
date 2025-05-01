@@ -1,26 +1,26 @@
 <div id="amenities" class="amenities-area pt-100 pb-75">
     <div class="container">
         <div class="section-title">
-            <h2>Amenities</h2>
+            <h2><span>Amenities</span></h2>
         </div>
         <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-6" (click)="onClick('faqs')">
+                <div class="single-box">
+                    <div class="icon">
+                        <fa-icon [icon]="fasQuestion"></fa-icon>
+                    </div>
+                    <h3>FAQs</h3>
+                    <p>Lorem ipsum dolor sit amet sit ipsum, consectet adipiscing elit consectetur, ipsum dolor sed do
+                        eiusmod tempor.</p>
+                    <a title="Read More" class="link-btn"><fa-icon [icon]="fasArrowRight"></fa-icon></a>
+                </div>
+            </div>
             <div class="col-lg-4 col-md-6 col-sm-6" (click)="onClick('lodging')">
                 <div class="single-box">
                     <div class="icon">
                         <fa-icon [icon]="fasBedFront"></fa-icon>
                     </div>
                     <h3>Lodging</h3>
-                    <p>Lorem ipsum dolor sit amet sit ipsum, consectet adipiscing elit consectetur, ipsum dolor sed do
-                        eiusmod tempor.</p>
-                    <a title="Read More" class="link-btn"><fa-icon [icon]="fasArrowRight"></fa-icon></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6" (click)="onClick('shopping')">
-                <div class="single-box">
-                    <div class="icon">
-                        <fa-icon [icon]="fasStore"></fa-icon>
-                    </div>
-                    <h3>Shopping</h3>
                     <p>Lorem ipsum dolor sit amet sit ipsum, consectet adipiscing elit consectetur, ipsum dolor sed do
                         eiusmod tempor.</p>
                     <a title="Read More" class="link-btn"><fa-icon [icon]="fasArrowRight"></fa-icon></a>
@@ -37,23 +37,23 @@
                     <a title="Read More" class="link-btn"><fa-icon [icon]="fasArrowRight"></fa-icon></a>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-6 col-sm-6" (click)="onClick('shopping')">
+                <div class="single-box">
+                    <div class="icon">
+                        <fa-icon [icon]="fasStore"></fa-icon>
+                    </div>
+                    <h3>Shopping</h3>
+                    <p>Lorem ipsum dolor sit amet sit ipsum, consectet adipiscing elit consectetur, ipsum dolor sed do
+                        eiusmod tempor.</p>
+                    <a title="Read More" class="link-btn"><fa-icon [icon]="fasArrowRight"></fa-icon></a>
+                </div>
+            </div>
             <div class="col-lg-4 col-md-6 col-sm-6" (click)="onClick('transportation')">
                 <div class="single-box">
                     <div class="icon">
                         <fa-icon [icon]="fasCarpool"></fa-icon>
                     </div>
                     <h3>Transportation</h3>
-                    <p>Lorem ipsum dolor sit amet sit ipsum, consectet adipiscing elit consectetur, ipsum dolor sed do
-                        eiusmod tempor.</p>
-                    <a title="Read More" class="link-btn"><fa-icon [icon]="fasArrowRight"></fa-icon></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6" (click)="onClick('faqs')">
-                <div class="single-box">
-                    <div class="icon">
-                        <fa-icon [icon]="fasQuestion"></fa-icon>
-                    </div>
-                    <h3>FAQs</h3>
                     <p>Lorem ipsum dolor sit amet sit ipsum, consectet adipiscing elit consectetur, ipsum dolor sed do
                         eiusmod tempor.</p>
                     <a title="Read More" class="link-btn"><fa-icon [icon]="fasArrowRight"></fa-icon></a>

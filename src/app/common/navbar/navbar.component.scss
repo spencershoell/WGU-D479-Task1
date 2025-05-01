@@ -20,6 +20,10 @@
         background: var(--whiteColor) !important;
         box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
     }
+
+    .ng-fa-icon {
+        color: var(--mainColor);
+    }
 }
 
 .navbar-light {

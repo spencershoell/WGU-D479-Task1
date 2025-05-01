@@ -1,12 +1,12 @@
 <div class="elements-area pt-100 pb-75">
     <div class="container">
         <div class="section-title">
-            <h2><span>Beaches</span></h2>
+            <h2><span>Resorts</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
         </div>
         <div class="row justify-content-center">
-            <div *ngFor="let element of beaches" class="col-lg-4 col-md-6">
+            <div *ngFor="let element of resorts" class="col-lg-4 col-md-6">
                 <div class="single-element">
                     <div class="element-img">
                         <img [src]="element.imageUrl" alt="element-img" height="240px">
@@ -26,12 +26,12 @@
 <div class="elements-area pt-100 pb-75">
     <div class="container">
         <div class="section-title">
-            <h2><span>Snorkling</span></h2>
+            <h2><span>Hotels</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
         </div>
         <div class="row justify-content-center">
-            <div *ngFor="let element of snorkelings" class="col-lg-4 col-md-6">
+            <div *ngFor="let element of hotels" class="col-lg-4 col-md-6">
                 <div class="single-element">
                     <div class="element-img">
                         <img [src]="element.imageUrl" alt="element-img" height="240px">
@@ -51,12 +51,37 @@
 <div class="elements-area pt-100 pb-75">
     <div class="container">
         <div class="section-title">
-            <h2><span>Fishing Tours</span></h2>
+            <h2><span>Bed and Breakfasts</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
         </div>
         <div class="row justify-content-center">
-            <div *ngFor="let element of fishingTours" class="col-lg-4 col-md-6">
+            <div *ngFor="let element of bnbs" class="col-lg-4 col-md-6">
+                <div class="single-element">
+                    <div class="element-img">
+                        <img [src]="element.imageUrl" alt="element-img" height="240px">
+                    </div>
+                    <div class="element-content">
+                        <h3>{{element.name}}</h3>
+                        <p>{{element.description}}
+                            <app-star-rating [rating]="element.rating"></app-star-rating>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="elements-area pt-100 pb-75">
+    <div class="container">
+        <div class="section-title">
+            <h2><span>Hostiles</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div *ngFor="let element of hostiles" class="col-lg-4 col-md-6">
                 <div class="single-element">
                     <div class="element-img">
                         <img [src]="element.imageUrl" alt="element-img" height="240px">

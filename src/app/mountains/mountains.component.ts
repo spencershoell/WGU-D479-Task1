@@ -10,69 +10,35 @@ import { NgFor } from '@angular/common';
 })
 export class MountainsComponent {
 
-    beaches = [{
-        name: 'Paradise Cove',
+    hikes = [{
+        name: 'Emerald Peak Trail ',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_685179826.jpeg',
-        rating: 5.0
+        imageUrl: 'images/AdobeStock_246991670.jpeg',
+        rating: 4.7
     }, {
-        name: 'Sunbeam Sands',
+        name: 'Sunset Ridge Path',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_347451202.jpeg',
+        imageUrl: 'images/AdobeStock_289562006.jpeg',
+        rating: 3.8
+    }, {
+        name: 'Mystic Falls Path',
+        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+        imageUrl: 'images/AdobeStock_361702213.jpeg',
         rating: 4.0
     }, {
-        name: 'Azure Bay',
+        name: 'Starlight Ridge Trail ',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_305294528.jpeg',
-        rating: 4.5
-    }, {
-        name: 'Coral Cove',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_118733032.jpeg',
+        imageUrl: 'images/AdobeStock_516083290.jpeg',
         rating: 5.0
     }, {
-        name: 'Golden Grains',
+        name: 'Serenity Summit',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_105902613.jpeg',
+        imageUrl: 'images/AdobeStock_212971004.jpeg',
         rating: 3.5
     }, {
-        name: 'Serene Shore',
+        name: 'Moonlit Valley Hike',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_360855513.jpeg',
-        rating: 4.0
-    }];
-
-    snorkelings = [{
-        name: 'Coral Gardens',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_208142964.jpeg',
-        rating: 4.5
-    }, {
-        name: 'Crystal Lagoon',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_348118831.jpeg',
-        rating: 3.5
-    }, {
-        name: 'Marine Sanctuary',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_300318143.jpeg',
-        rating: 4.5
-    }];
-
-    fishingTours = [{
-        name: 'Deep Sea Adventure',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_431337806.jpeg',
-        rating: 4.5
-    }, {
-        name: 'Reef Fishing Excursion',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_272985580.jpeg',
-        rating: 3.5
-    }, {
-        name: 'Mangrove Fishing Safari',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_339043748.jpeg',
-        rating: 4.5
+        imageUrl: 'images/AdobeStock_564746007.jpeg',
+        rating: 2.8
     }];
 }

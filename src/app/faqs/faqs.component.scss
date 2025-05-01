@@ -1,80 +1,46 @@
-.elements-area {
-    z-index: 1;
-    position: relative;
-}
+.faq-accordion {
+    .accordion {
+        .accordion-section {
+            border-radius: 5px;
+            margin-bottom: 15px;
+            background-color: var(--whiteColor);
+            box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13);
 
-.single-element {
-    text-align: center;
-    position: relative;
-    margin-bottom: 25px;
-    transition: var(--transition);
-    box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+            .accordion-header {
+                display: block;
+                cursor: pointer;
+                position: relative;
+                color: var(--blackColor);
+                padding: 20px 40px 20px 20px;
+                background: var(--whiteColor);
+                transition: var(--transition);
 
-    &::before {
-        left: 0;
-        bottom: 0;
-        opacity: 0;
-        content: '';
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        transition: var(--transition);
+                font: {
+                    size: 16px;
+                    weight: 500;
+                }
 
-        border: {
-            left: 2px solid var(--mainColor);
-            bottom: 2px solid var(--mainColor);
-        }
+                ;
 
-        ;
-    }
-
-    .element-img {
-        position: relative;
-
-        img {
-            height: 240px;
-            width: 415px;
-        }
-
-    }
-
-    .element-content {
-        padding: 30px 25px;
-        position: relative;
-
-        h3 {
-            margin-bottom: 13px;
-
-            font: {
-                size: 20px;
-                weight: 600;
-            }
-
-            ;
-        }
-
-        p {
-            font-size: 15.5px;
-        }
-    }
-
-    &:hover {
-        transform: translateY(-10px);
-
-        .element-img {
-            .icon {
-                i {
+                &:hover,
+                &.open {
                     color: var(--whiteColor);
                     background: var(--mainColor);
-                    border-color: var(--whiteColor);
                 }
             }
-        }
 
-        &::before {
-            opacity: 1;
-            width: 100%;
-            height: 50%;
+            .accordion-content {
+                display: none;
+                padding: 20px;
+
+                &.open {
+                    display: block;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 }
@@ -82,17 +48,32 @@
 /* Max width 767px */
 @media only screen and (max-width : 767px) {
 
-    .single-element {
-        .element-content {
-            padding: 25px 20px;
-
-            h3 {
-                font-size: 18px;
-                margin-bottom: 15px;
+    .faq-area {
+        .section-title {
+            h2 {
+                display: inline-block;
+                line-height: 1.3;
+                margin-top: -5px;
             }
+        }
+    }
 
-            p {
-                font-size: 14px;
+    .faq-accordion {
+        .accordion {
+            .accordion-section {
+                .accordion-header {
+                    padding: 15px 30px 15px 15px;
+                    font-size: 15px;
+
+                    &::before {
+                        right: 12px;
+                        font-size: 13px;
+                    }
+                }
+
+                .accordion-content {
+                    padding: 15px;
+                }
             }
         }
     }

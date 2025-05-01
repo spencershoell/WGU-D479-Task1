@@ -10,7 +10,7 @@ import { NgFor } from '@angular/common';
 })
 export class RestaurantsComponent {
 
-    beaches = [{
+    fishAndRice = [{
         name: 'Paradise Cove',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
         imageUrl: 'images/AdobeStock_685179826.jpeg',
@@ -42,7 +42,7 @@ export class RestaurantsComponent {
         rating: 4.0
     }];
 
-    snorkelings = [{
+    american = [{
         name: 'Coral Gardens',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
         imageUrl: 'images/AdobeStock_208142964.jpeg',
@@ -59,7 +59,7 @@ export class RestaurantsComponent {
         rating: 4.5
     }];
 
-    fishingTours = [{
+    panAsian = [{
         name: 'Deep Sea Adventure',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
         imageUrl: 'images/AdobeStock_431337806.jpeg',
