@@ -11,100 +11,65 @@ import { NgFor } from '@angular/common';
 export class LodgingComponent {
 
     resorts = [{
-        name: 'Paradise Cove',
+        name: 'Oceanview Resort',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_685179826.jpeg',
+        imageUrl: 'images/AdobeStock_413100374.jpeg',
         rating: 5.0
-    }, {
-        name: 'Sunbeam Sands',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_347451202.jpeg',
-        rating: 4.0
-    }, {
-        name: 'Azure Bay',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_305294528.jpeg',
-        rating: 4.5
-    }, {
-        name: 'Coral Cove',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_118733032.jpeg',
-        rating: 5.0
-    }, {
-        name: 'Golden Grains',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_105902613.jpeg',
-        rating: 3.5
-    }, {
-        name: 'Serene Shore',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_360855513.jpeg',
-        rating: 4.0
     }];
 
     hotels = [{
-        name: 'Paradise Cove',
+        name: 'Paradise Point Hotel',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_685179826.jpeg',
+        imageUrl: 'images/AdobeStock_279709735.jpeg',
         rating: 5.0
     }, {
-        name: 'Sunbeam Sands',
+        name: 'Lagoon Vista Hotel',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_347451202.jpeg',
+        imageUrl: 'images/AdobeStock_429097058.jpeg',
         rating: 4.0
     }, {
-        name: 'Azure Bay',
+        name: 'Pacific Pearl Hotel',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_305294528.jpeg',
+        imageUrl: 'images/AdobeStock_220413905.jpeg',
         rating: 4.5
     }, {
-        name: 'Coral Cove',
+        name: 'Azure Bay Hotel',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_118733032.jpeg',
+        imageUrl: 'images/AdobeStock_162122277.jpeg',
         rating: 5.0
     }, {
-        name: 'Golden Grains',
+        name: 'Sunset Lagoon Hotel',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_105902613.jpeg',
+        imageUrl: 'images/AdobeStock_313384777.jpeg',
         rating: 3.5
     }, {
-        name: 'Serene Shore',
+        name: 'Island Escape Hotel',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_360855513.jpeg',
+        imageUrl: 'images/AdobeStock_308091300.jpeg',
         rating: 4.0
     }];
 
     bnbs = [{
-        name: 'Coral Gardens',
+        name: 'Coral Cove B&B',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_208142964.jpeg',
+        imageUrl: 'images/AdobeStock_257947064.jpeg',
         rating: 4.5
     }, {
-        name: 'Crystal Lagoon',
+        name: 'Palm Grove B&B',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_348118831.jpeg',
+        imageUrl: 'images/AdobeStock_363486026.jpeg',
         rating: 3.5
     }, {
-        name: 'Marine Sanctuary',
+        name: 'Sunrise Shores B&B',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_300318143.jpeg',
+        imageUrl: 'images/AdobeStock_445114033.jpeg',
         rating: 4.5
     }];
 
-    hostiles = [{
-        name: 'Deep Sea Adventure',
+    hostels = [{
+        name: 'Surf Shack Hostel',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_431337806.jpeg',
-        rating: 4.5
-    }, {
-        name: 'Reef Fishing Excursion',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_272985580.jpeg',
-        rating: 3.5
-    }, {
-        name: 'Mangrove Fishing Safari',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_339043748.jpeg',
+        imageUrl: 'images/AdobeStock_475581633.jpeg',
         rating: 4.5
     }];
 }

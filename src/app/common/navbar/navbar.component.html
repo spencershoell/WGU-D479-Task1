@@ -44,25 +44,38 @@
             </ul>
             <ul class="navbar-nav ml-auto for-responsive">
                 <li class="nav-item">
-                    <span class="nav-link" (click)="toggleClass(); onClick('')">Home</span>
+                    <span class="nav-link" (click)="toggleClass(); onClick('')"><fa-icon [icon]="fasHome"></fa-icon>
+                        Home</span>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link" (click)="toggleClass(); onClick('beaches')">Beaches</span>
+                    <span class="nav-link" (click)="toggleClass(); onClick('beaches')"><fa-icon
+                            [icon]="fasUmbrellaBeach"></fa-icon>
+                        Beaches</span>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link" (click)="toggleClass(); onClick('faqs')">FAQs</span>
+                    <span class="nav-link" (click)="toggleClass(); onClick('faqs')"><fa-icon
+                            [icon]="fasQuestion"></fa-icon>
+                        FAQs</span>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link" (click)="toggleClass(); onClick('lodging')">Lodging</span>
+                    <span class="nav-link" (click)="toggleClass(); onClick('lodging')"><fa-icon
+                            [icon]="fasBedFront"></fa-icon>
+                        Lodging</span>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link" (click)="toggleClass(); onClick('restaurants')">Restaurants</span>
+                    <span class="nav-link" (click)="toggleClass(); onClick('restaurants')"><fa-icon
+                            [icon]="fasForkKnife"></fa-icon>
+                        Restaurants</span>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link" (click)="toggleClass(); onClick('shopping')">Shopping</span>
+                    <span class="nav-link" (click)="toggleClass(); onClick('shopping')"><fa-icon
+                            [icon]="fasStore"></fa-icon>
+                        Shopping</span>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link" (click)="toggleClass(); onClick('transportation')">Transportation</span>
+                    <span class="nav-link" (click)="toggleClass(); onClick('transportation')"><fa-icon
+                            [icon]="fasCarpool"></fa-icon>
+                        Transportation</span>
                 </li>
             </ul>
         </div>

@@ -11,68 +11,33 @@ import { NgFor } from '@angular/common';
 export class ShoppingComponent {
 
     supermarkets = [{
-        name: 'Paradise Cove',
+        name: 'Island Fresh Market',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_685179826.jpeg',
+        imageUrl: 'images/AdobeStock_567341304.jpeg',
         rating: 5.0
     }, {
-        name: 'Sunbeam Sands',
+        name: 'Seaside Superstore',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_347451202.jpeg',
-        rating: 4.0
-    }, {
-        name: 'Azure Bay',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_305294528.jpeg',
-        rating: 4.5
-    }, {
-        name: 'Coral Cove',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_118733032.jpeg',
-        rating: 5.0
-    }, {
-        name: 'Golden Grains',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_105902613.jpeg',
-        rating: 3.5
-    }, {
-        name: 'Serene Shore',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_360855513.jpeg',
+        imageUrl: 'images/AdobeStock_227666492.jpeg',
         rating: 4.0
     }];
 
     groceryStores = [{
-        name: 'Coral Gardens',
+        name: 'Palm Tree Grocers',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_208142964.jpeg',
+        imageUrl: 'images/AdobeStock_401355282.jpeg',
         rating: 4.5
     }, {
-        name: 'Crystal Lagoon',
+        name: 'Lagoon Fresh Foods',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_348118831.jpeg',
+        imageUrl: 'images/AdobeStock_248428253.jpeg',
         rating: 3.5
-    }, {
-        name: 'Marine Sanctuary',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_300318143.jpeg',
-        rating: 4.5
     }];
 
     convenienceStores = [{
-        name: 'Deep Sea Adventure',
+        name: 'Island Quick Stop',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_431337806.jpeg',
-        rating: 4.5
-    }, {
-        name: 'Reef Fishing Excursion',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_272985580.jpeg',
-        rating: 3.5
-    }, {
-        name: 'Mangrove Fishing Safari',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_339043748.jpeg',
+        imageUrl: 'images/AdobeStock_157223254.jpeg',
         rating: 4.5
     }];
 }

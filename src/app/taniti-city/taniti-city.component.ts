@@ -11,68 +11,58 @@ import { NgFor } from '@angular/common';
 export class TanitiCityComponent {
 
     pubs = [{
-        name: 'Paradise Cove',
+        name: 'Seaside Alehouse',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_685179826.jpeg',
+        imageUrl: 'images/AdobeStock_280488501.jpeg',
         rating: 5.0
     }, {
-        name: 'Sunbeam Sands',
+        name: 'Palm Tree Pub',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_347451202.jpeg',
+        imageUrl: 'images/AdobeStock_313005883.jpeg',
         rating: 4.0
     }, {
-        name: 'Azure Bay',
+        name: 'Island Craft Brewery',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_305294528.jpeg',
+        imageUrl: 'images/AdobeStock_519073675.jpeg',
         rating: 4.5
-    }, {
-        name: 'Coral Cove',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_118733032.jpeg',
-        rating: 5.0
-    }, {
-        name: 'Golden Grains',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_105902613.jpeg',
-        rating: 3.5
-    }, {
-        name: 'Serene Shore',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_360855513.jpeg',
-        rating: 4.0
     }];
 
     culture = [{
-        name: 'Coral Gardens',
+        name: 'Local History Museum',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_208142964.jpeg',
+        imageUrl: 'images/AdobeStock_531760197.jpeg',
         rating: 4.5
     }, {
-        name: 'Crystal Lagoon',
+        name: 'Lagoon Gallery',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_348118831.jpeg',
+        imageUrl: 'images/AdobeStock_396397311.jpeg',
         rating: 3.5
     }, {
-        name: 'Marine Sanctuary',
+        name: 'Palm Art Studio',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_300318143.jpeg',
+        imageUrl: 'images/AdobeStock_290452369.jpeg',
         rating: 4.5
     }];
 
     entertainment = [{
-        name: 'Deep Sea Adventure',
+        name: 'Bowling',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_431337806.jpeg',
+        imageUrl: 'images/AdobeStock_473128096.jpeg',
         rating: 4.5
     }, {
-        name: 'Reef Fishing Excursion',
+        name: 'Dance Club',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_272985580.jpeg',
+        imageUrl: 'images/AdobeStock_278700138.jpeg',
         rating: 3.5
     }, {
-        name: 'Mangrove Fishing Safari',
+        name: 'Movie Theater',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_339043748.jpeg',
+        imageUrl: 'images/AdobeStock_238916036.jpeg',
         rating: 4.5
+    }, {
+        name: 'Arcade',
+        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+        imageUrl: 'images/AdobeStock_187269988.jpeg',
+        rating: 3.0
     }];
 }

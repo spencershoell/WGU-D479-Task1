@@ -11,34 +11,34 @@ import { NgFor } from '@angular/common';
 export class TransportationComponent {
 
     transportation = [{
-        name: 'Paradise Cove',
+        name: 'Airport',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_685179826.jpeg',
+        imageUrl: 'images/AdobeStock_390108332.jpeg',
         rating: 5.0
     }, {
-        name: 'Sunbeam Sands',
+        name: 'Yellow Leaf Bay',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_347451202.jpeg',
+        imageUrl: 'images/AdobeStock_407266301.jpeg',
         rating: 4.0
     }, {
-        name: 'Azure Bay',
+        name: 'Buses',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_305294528.jpeg',
+        imageUrl: 'images/AdobeStock_454259379.jpeg',
         rating: 4.5
     }, {
-        name: 'Coral Cove',
+        name: 'Car Rentals',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_118733032.jpeg',
+        imageUrl: 'images/AdobeStock_321545359.jpeg',
         rating: 5.0
     }, {
-        name: 'Golden Grains',
+        name: 'Bike Rentals',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_105902613.jpeg',
+        imageUrl: 'images/AdobeStock_470896769.jpeg',
         rating: 3.5
     }, {
-        name: 'Serene Shore',
+        name: 'Rideshare',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_360855513.jpeg',
+        imageUrl: 'images/AdobeStock_108447371.jpeg',
         rating: 4.0
     }];
 }

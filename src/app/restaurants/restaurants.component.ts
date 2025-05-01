@@ -11,68 +11,63 @@ import { NgFor } from '@angular/common';
 export class RestaurantsComponent {
 
     fishAndRice = [{
-        name: 'Paradise Cove',
+        name: 'Ocean Harvest Grill',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_685179826.jpeg',
+        imageUrl: 'images/AdobeStock_386953423.jpeg',
         rating: 5.0
     }, {
-        name: 'Sunbeam Sands',
+        name: 'Seaside Sushi & Rice',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_347451202.jpeg',
+        imageUrl: 'images/AdobeStock_323498723.jpeg',
         rating: 4.0
     }, {
-        name: 'Azure Bay',
+        name: 'Tropical Fish Feast',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_305294528.jpeg',
+        imageUrl: 'images/AdobeStock_305093613.jpeg',
         rating: 4.5
     }, {
-        name: 'Coral Cove',
+        name: 'Coral Reef Cuisine',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_118733032.jpeg',
+        imageUrl: 'images/AdobeStock_136208567.jpeg',
         rating: 5.0
     }, {
-        name: 'Golden Grains',
+        name: 'Island Rice & Fish',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_105902613.jpeg',
+        imageUrl: 'images/AdobeStock_382296637.jpeg',
         rating: 3.5
-    }, {
-        name: 'Serene Shore',
-        description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_360855513.jpeg',
-        rating: 4.0
     }];
 
     american = [{
-        name: 'Coral Gardens',
+        name: 'Island Grill & Diner',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_208142964.jpeg',
+        imageUrl: 'images/AdobeStock_422172892.jpeg',
         rating: 4.5
     }, {
-        name: 'Crystal Lagoon',
+        name: 'Seaside Bistro',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_348118831.jpeg',
+        imageUrl: 'images/AdobeStock_384100681.jpeg',
         rating: 3.5
     }, {
-        name: 'Marine Sanctuary',
+        name: 'Tropical Tavern',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_300318143.jpeg',
+        imageUrl: 'images/AdobeStock_92591831.jpeg',
         rating: 4.5
     }];
 
     panAsian = [{
-        name: 'Deep Sea Adventure',
+        name: 'Lagoon Lotus Café',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_431337806.jpeg',
+        imageUrl: 'images/AdobeStock_265876584.jpeg',
         rating: 4.5
     }, {
-        name: 'Reef Fishing Excursion',
+        name: 'Island Spice Fusion',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_272985580.jpeg',
+        imageUrl: 'images/AdobeStock_358224553.jpeg',
         rating: 3.5
     }, {
-        name: 'Mangrove Fishing Safari',
+        name: 'Red Tiger Diner',
         description: 'Lorem ipsum dolor sit amet consecte, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-        imageUrl: 'images/AdobeStock_339043748.jpeg',
+        imageUrl: 'images/AdobeStock_440688110.jpeg',
         rating: 4.5
     }];
 }
